@@ -1,0 +1,6 @@
+4589318 Rewrite Apps tab to match original PyQt implementation
+6e22390 Unify sidebar background with main background (fix build: unused format arg)
+8f6de25 Unify sidebar background with main background color
+5de0e12 Fix sidebar tab selection: group nav ToggleButtons so one stays highlighted
+ad0a79d Fix Linux single-instance for nix 0.29 OwnedFd API; build passes on Linux
+68ba11a WIP: GTK4+Rust port of AdGuard CachyOS GUI (engine stays adguard-cli)

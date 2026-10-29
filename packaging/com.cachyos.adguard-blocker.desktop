@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=AdGuard
+GenericName=Ad Blocker
+Comment=AdGuard Blocker - GTK4 (Rust) port
+Exec=/home/pc/Desktop/Softlinux/cachyos software/adguard-blocker-rebuilt/target/release/adguard-blocker-rebuilt
+Path=/home/pc/Desktop/Softlinux/cachyos software/adguard-blocker-rebuilt
+Icon=adguard-blocker
+Terminal=false
+Categories=Network;Security;Utility;
+StartupNotify=true
+StartupWMClass=AdGuard

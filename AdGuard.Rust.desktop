@@ -1,0 +1,13 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=AdGuard Blocker (Rust)
+Comment=AdGuard Blocker - bản Rust/GTK4 (port từ Python). Bấm để mở.
+Exec=/home/pc/Desktop/Softlinux/cachyos software/adguard-blocker-rebuilt/run.sh
+Path=/home/pc/Desktop/Softlinux/cachyos software/adguard-blocker-rebuilt
+Icon=/home/pc/Desktop/Softlinux/cachyos software/adguard-blocker-rebuilt/adguard_blocker_icon.png
+Terminal=false
+Categories=Network;Security;Utility;
+StartupNotify=true
+StartupWMClass=AdGuard
