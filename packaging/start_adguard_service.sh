@@ -14,8 +14,8 @@ if "$ADGUARD_BIN" status 2>&1 | grep -q "is running" || sudo -n "$ADGUARD_BIN" s
     exit 0
 fi
 
-# Chờ 3 giây để hệ thống mạng sẵn sàng sau khi mở máy
-sleep 3
+# Chờ 8 giây để hệ thống mạng và root helper sẵn sàng sau khi mở máy
+sleep 8
 
 MAX_RETRIES=4
 RETRY_DELAY=5
