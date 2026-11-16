@@ -1,6 +1,10 @@
-# AdGuard Blocker UI for Linux
+# AdGuard UI for Linux
 
 An unofficial, high-performance native **GTK4** desktop frontend (wrapper) for the official **AdGuard CLI** (`adguard-cli`) on Linux. Re-architected in **Rust** to replace legacy Electron/Python frontends with native speed, low memory usage, and direct IPC communication.
+
+<p align="center">
+  <img src="screenshot.png" alt="AdGuard UI Linux Preview" width="650"/>
+</p>
 
 > [!NOTE]
 > This application is an independent open-source GUI frontend. It connects to and manages the official `adguard-cli` service daemon.
@@ -30,8 +34,8 @@ An unofficial, high-performance native **GTK4** desktop frontend (wrapper) for t
 ### Build from Source
 ```bash
 # Clone repository
-git clone https://github.com/ashdalat/adguard-blocker.git
-cd adguard-blocker
+git clone https://github.com/ashdalat/adguard-ui-linux.git
+cd adguard-ui-linux
 
 # Build release binary
 cargo build --release
