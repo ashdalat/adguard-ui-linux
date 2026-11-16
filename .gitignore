@@ -1,4 +1,5 @@
 /target
-backend/*.tar.gz
+backend
+binaries/*.tar.gz
 *.log
 .DS_Store

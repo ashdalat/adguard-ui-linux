@@ -58,3 +58,4 @@ Automated setup scripts are located in the `packaging/` directory:
 ## 📄 License
 
 GPL-3.0 or MIT. Not affiliated with AdGuard Software Ltd.
+
